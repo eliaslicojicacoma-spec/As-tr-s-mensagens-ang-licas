@@ -1,0 +1,48 @@
+[
+  {
+    "id": "1",
+    "titulo": "O Grande Conflito",
+    "autor": "Ellen G. White",
+    "capa": "/images/livros/grande-conflito.jpg",
+    "descricao": "A história do conflito milenar entre Cristo e Satanás, do passado ao futuro eterno.",
+    "link": "https://egwwritings.org/book/b1633",
+    "categoria": "E.G. White"
+  },
+  {
+    "id": "2",
+    "titulo": "Caminho a Cristo",
+    "autor": "Ellen G. White",
+    "capa": "/images/livros/caminho-cristo.jpg",
+    "descricao": "O guia prático para encontrar a paz e a salvação em Jesus Cristo.",
+    "link": "https://egwwritings.org/book/b1637",
+    "categoria": "E.G. White"
+  },
+  {
+    "id": "3",
+    "titulo": "Hinário Adventista",
+    "autor": "CPB",
+    "capa": "/images/livros/hinario.jpg",
+    "descricao": "Coleção completa de hinos para adoração e louvor ao Senhor.",
+    "link": "https://hinarioadventista.com.br",
+    "categoria": "Adoração"
+  },
+  {
+    "id": "4",
+    "titulo": "O Desejado de Todas as Nações",
+    "autor": "Ellen G. White",
+    "capa": "/images/livros/desejado.jpg",
+    "descricao": "A biografia mais completa sobre a vida e o ministério de Jesus Cristo.",
+    "link": "https://egwwritings.org/book/b1617",
+    "categoria": "E.G. White"
+  },
+  {
+    "id": "5",
+    "titulo": "Educação",
+    "autor": "Ellen G. White",
+    "capa": "/images/livros/educacao.jpg",
+    "descricao": "Princípios fundamentais para o desenvolvimento físico, mental e espiritual.",
+    "link": "https://egwwritings.org/book/b1611",
+    "categoria": "E.G. White"
+  }
+]
+
