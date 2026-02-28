@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  background-color: #ffffff;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Estilo para os links de navegação do Obreiro */
+a {
+  transition: color 0.3s ease;
+}
+
+/* Garante que imagens de livros e banners não estourem a tela do telemóvel */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilo personalizado para os cards de estudos bíblicos */
+.card-estudo {
+  @apply bg-white p-6 rounded-2xl shadow-sm border border-slate-100 transition-all hover:shadow-md;
+}
+
