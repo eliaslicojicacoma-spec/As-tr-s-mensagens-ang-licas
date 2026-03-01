@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import './index.css' // Esta linha é o que traz o visual profissional
+import './index.css' // Esta linha é a mais importante para o visual!
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
