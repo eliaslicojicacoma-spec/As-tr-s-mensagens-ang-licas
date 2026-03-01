@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#0f172a', // Azul Marinho Solene
-        secondary: '#f59e0b', // Dourado do Clarim
+        primary: '#0f172a',
+        secondary: '#f59e0b',
       },
     },
   },
