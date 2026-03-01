@@ -7,16 +7,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Cores oficiais do Clarim da Verdade
-        primary: '#0f172a', // Slate 900
-        secondary: '#f59e0b', // Amber 500
-        accent: '#1e293b', // Slate 800
-      },
-      fontFamily: {
-        sans: ['Inter', 'sans-serif', 'system-ui'],
+        primary: '#0f172a', // Azul Marinho Solene
+        secondary: '#f59e0b', // Dourado do Clarim
       },
     },
   },
   plugins: [],
 }
-
