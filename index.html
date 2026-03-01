@@ -2,21 +2,29 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#0f172a" />
+    <link rel="apple-touch-icon" href="/images/logo/icon-192.png" />
+
     <title>As Três Mensagens Angélicas | Clarim da Verdade</title>
-    <meta name="description" content="Portal missionário para a proclamação do Evangelho Eterno." />
+    <meta name="description" content="Portal missionário dedicado à proclamação do Evangelho Eterno e preparação para o breve retorno de Cristo." />
   </head>
   <body>
     <div id="root"></div>
+    
     <script type="module" src="/src/main.tsx"></script>
+
     <script>
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/sw.js');
-    });
-  }
-</script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then(reg => console.log('Serviço Offline Ativo!', reg))
+            .catch(err => console.log('Erro ao ativar Offline:', err));
+        });
+      }
+    </script>
   </body>
 </html>
-
