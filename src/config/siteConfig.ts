@@ -11,6 +11,9 @@ export const siteConfig = {
   monetization: {
     pix: "elias-licoji-cacoma-273@jim.com",
     paypal: "eliaslicojicacoma@gmail.com"
+  },
+  contact: {
+    whatsapp: "+244933522616",
+    waLink: "https://wa.me/244933522616" // Link direto atualizado
   }
 };
-
